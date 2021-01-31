@@ -1,0 +1,929 @@
+[
+ {
+   "RecordID": 1890041,
+   "CustomerInteractionRawText": "Cus not satisfied with service. want to port out to Idea network. ",
+   "AgentAssignedTopic": "Port Out",
+   "LocationID": 8,
+   "CallDurationSeconds": 10,
+   "AgentID": "z88Nr",
+   "CustomerID": "5Ms7y"
+ },
+ {
+   "RecordID": 1890042,
+   "CustomerInteractionRawText": "Jadav called to check his porting out status. Shared information with him.",
+   "AgentAssignedTopic": "Port Out",
+   "LocationID": 1,
+   "CallDurationSeconds": 6,
+   "AgentID": "xGAVI",
+   "CustomerID": "s8Zyb"
+ },
+ {
+   "RecordID": 1890043,
+   "CustomerInteractionRawText": "Customer thraetened to cancel her service. Said Idea is offerring much better options.",
+   "AgentAssignedTopic": "Port Out",
+   "LocationID": 9,
+   "CallDurationSeconds": 15,
+   "AgentID": "T7Kdd",
+   "CustomerID": "3IB8J"
+ },
+ {
+   "RecordID": 1890044,
+   "CustomerInteractionRawText": "called to ask steps for porting out. She is leaving India.",
+   "AgentAssignedTopic": "Port Out",
+   "LocationID": 5,
+   "CallDurationSeconds": 15,
+   "AgentID": "jtifd",
+   "CustomerID": "mtR3W"
+ },
+ {
+   "RecordID": 1890045,
+   "CustomerInteractionRawText": "Customer dissatisfied with support. Connectivity is poor in his region. Wanted to port to BSNL.",
+   "AgentAssignedTopic": "Port Out",
+   "LocationID": 7,
+   "CallDurationSeconds": 13,
+   "AgentID": "hxY3d",
+   "CustomerID": "DbBmN"
+ },
+ {
+   "RecordID": 1890046,
+   "CustomerInteractionRawText": "port out Options. >> Tried to retain. >> Xferred to Manager.",
+   "AgentAssignedTopic": "Port Out",
+   "LocationID": 5,
+   "CallDurationSeconds": 20,
+   "AgentID": "K1XpF",
+   "CustomerID": "iJaJT"
+ },
+ {
+   "RecordID": 1890047,
+   "CustomerInteractionRawText": "Customer wanted port out. Transferred to offer better plans to retain.",
+   "AgentAssignedTopic": "Port Out",
+   "LocationID": 8,
+   "CallDurationSeconds": 20,
+   "AgentID": "ksjXv",
+   "CustomerID": "kOoUz"
+ },
+ {
+   "RecordID": 1890048,
+   "CustomerInteractionRawText": "Kumar called to ask about his porting status. Moving to BSNL.",
+   "AgentAssignedTopic": "Port Out",
+   "LocationID": 0,
+   "CallDurationSeconds": 10,
+   "AgentID": "0MmQN",
+   "CustomerID": "Y2jwL"
+ },
+ {
+   "RecordID": 1890049,
+   "CustomerInteractionRawText": "Cus wanted to cancel the connection. Transferred to port-out Management Team",
+   "AgentAssignedTopic": "Port Out",
+   "LocationID": 3,
+   "CallDurationSeconds": 9,
+   "AgentID": "nGpIG",
+   "CustomerID": "95UP8"
+ },
+ {
+   "RecordID": 1890050,
+   "CustomerInteractionRawText": "porting out because of high bill on Data Plans.",
+   "AgentAssignedTopic": "Port Out",
+   "LocationID": 0,
+   "CallDurationSeconds": 17,
+   "AgentID": "C9mBD",
+   "CustomerID": "tpBJs"
+ },
+ {
+   "RecordID": 1890051,
+   "CustomerInteractionRawText": "Nicki called to inform poor connectivity in Kannur region.",
+   "AgentAssignedTopic": "Poor Connectivity",
+   "LocationID": 9,
+   "CallDurationSeconds": 7,
+   "AgentID": "fvMNk",
+   "CustomerID": "yt8X7"
+ },
+ {
+   "RecordID": 1890052,
+   "CustomerInteractionRawText": "Low speed connection reported in Uppala area.",
+   "AgentAssignedTopic": "Poor Connectivity",
+   "LocationID": 3,
+   "CallDurationSeconds": 17,
+   "AgentID": "eUYn2",
+   "CustomerID": "movRl"
+ },
+ {
+   "RecordID": 1890053,
+   "CustomerInteractionRawText": "Cellular connection speed is less than 1MBps. asked Operator to check the device.",
+   "AgentAssignedTopic": "Poor Connectivity",
+   "LocationID": 6,
+   "CallDurationSeconds": 15,
+   "AgentID": "VbG2n",
+   "CustomerID": "wHF3B"
+ },
+ {
+   "RecordID": 1890054,
+   "CustomerInteractionRawText": "8289716467 called to complain about the connection speed.",
+   "AgentAssignedTopic": "Poor Connectivity",
+   "LocationID": 1,
+   "CallDurationSeconds": 9,
+   "AgentID": "3bYnT",
+   "CustomerID": "HK2hK"
+ },
+ {
+   "RecordID": 1890055,
+   "CustomerInteractionRawText": "New customer facing internet speed issues. asked to restart device & connect again.",
+   "AgentAssignedTopic": "Poor Connectivity",
+   "LocationID": 1,
+   "CallDurationSeconds": 10,
+   "AgentID": "t2KEl",
+   "CustomerID": "F6SFJ"
+ },
+ {
+   "RecordID": 1890056,
+   "CustomerInteractionRawText": "Low/poor connectivity during day-time. Customer want to increase net speed.",
+   "AgentAssignedTopic": "Poor Connectivity",
+   "LocationID": 7,
+   "CallDurationSeconds": 19,
+   "AgentID": "wfP7U",
+   "CustomerID": "dn5HN"
+ },
+ {
+   "RecordID": 1890057,
+   "CustomerInteractionRawText": "Want 3G connection in his area. ",
+   "AgentAssignedTopic": "Poor Connectivity",
+   "LocationID": 2,
+   "CallDurationSeconds": 16,
+   "AgentID": "Cr2Bi",
+   "CustomerID": "gcBE1"
+ },
+ {
+   "RecordID": 1890058,
+   "CustomerInteractionRawText": "Poor call quality. Checked on the connection speed which was below average.",
+   "AgentAssignedTopic": "Poor Connectivity",
+   "LocationID": 1,
+   "CallDurationSeconds": 14,
+   "AgentID": "QCHGH",
+   "CustomerID": "GIJ9O"
+ },
+ {
+   "RecordID": 1890059,
+   "CustomerInteractionRawText": "Customer facing issues in connectivity from yesterday onwards. Promised resloution.",
+   "AgentAssignedTopic": "Poor Connectivity",
+   "LocationID": 5,
+   "CallDurationSeconds": 13,
+   "AgentID": "0mj3N",
+   "CustomerID": "r34oU"
+ },
+ {
+   "RecordID": 1890060,
+   "CustomerInteractionRawText": "935468R911 called to report abrupt disconection from network.",
+   "AgentAssignedTopic": "Poor Connectivity",
+   "LocationID": null,
+   "CallDurationSeconds": 7,
+   "AgentID": "arEGe",
+   "CustomerID": "3lTSP"
+ },
+ {
+   "RecordID": 1890061,
+   "CustomerInteractionRawText": "Regina complained about high bill for last month.",
+   "AgentAssignedTopic": "High Bill",
+   "LocationID": null,
+   "CallDurationSeconds": 7,
+   "AgentID": "x0R0u",
+   "CustomerID": "ktQzi"
+ },
+ {
+   "RecordID": 1890062,
+   "CustomerInteractionRawText": "Data plans are very expensive complained 7563453326678",
+   "AgentAssignedTopic": "High Bill",
+   "LocationID": 2,
+   "CallDurationSeconds": 13,
+   "AgentID": "dz9pn",
+   "CustomerID": "0mOLX"
+ },
+ {
+   "RecordID": 1890063,
+   "CustomerInteractionRawText": "Customer can't afford monthly bills as they are very expensive.",
+   "AgentAssignedTopic": "High Bill",
+   "LocationID": 9,
+   "CallDurationSeconds": 9,
+   "AgentID": "oRThR",
+   "CustomerID": "7R2hF"
+ },
+ {
+   "RecordID": 1890064,
+   "CustomerInteractionRawText": "Want Senior citizen discount in monthly bills.",
+   "AgentAssignedTopic": "High Bill",
+   "LocationID": 7,
+   "CallDurationSeconds": 18,
+   "AgentID": "ILMzl",
+   "CustomerID": "TX2Iq"
+ },
+ {
+   "RecordID": 1890065,
+   "CustomerInteractionRawText": "Long time customer complaining about high bill. Offerred assistance",
+   "AgentAssignedTopic": "High Bill",
+   "LocationID": 3,
+   "CallDurationSeconds": 13,
+   "AgentID": "1lDmx",
+   "CustomerID": "r6wiP"
+ },
+ {
+   "RecordID": 1890066,
+   "CustomerInteractionRawText": "Cus want to enquire about the high bill for recent weeks. asked for cheap plans.",
+   "AgentAssignedTopic": "High Bill",
+   "LocationID": 1,
+   "CallDurationSeconds": 10,
+   "AgentID": "DcSrK",
+   "CustomerID": "pAESa"
+ },
+ {
+   "RecordID": 1890067,
+   "CustomerInteractionRawText": "Want to review bills for last month as they are abnormally high.",
+   "AgentAssignedTopic": "High Bill",
+   "LocationID": 8,
+   "CallDurationSeconds": 18,
+   "AgentID": "4lZoj",
+   "CustomerID": "0v4Sr"
+ },
+ {
+   "RecordID": 1890068,
+   "CustomerInteractionRawText": "Bill value for last month is high. Customer want to cancel the plan.",
+   "AgentAssignedTopic": "High Bill",
+   "LocationID": 8,
+   "CallDurationSeconds": 18,
+   "AgentID": "ptbQc",
+   "CustomerID": "NNs8k"
+ },
+ {
+   "RecordID": 1890069,
+   "CustomerInteractionRawText": "High bill. Can't afford new plans. Reduce call volume per month.",
+   "AgentAssignedTopic": "High Bill",
+   "LocationID": 9,
+   "CallDurationSeconds": 6,
+   "AgentID": "CGe0y",
+   "CustomerID": "fsw3j"
+ },
+ {
+   "RecordID": 1890070,
+   "CustomerInteractionRawText": "Want to know about offers on recent bill as he got high nill for last month.",
+   "AgentAssignedTopic": "High Bill",
+   "LocationID": 3,
+   "CallDurationSeconds": 6,
+   "AgentID": "4lxsd",
+   "CustomerID": "ChJ0M"
+ },
+ {
+   "RecordID": 1890071,
+   "CustomerInteractionRawText": "Cus travelling for nect month. Checked roaming plans",
+   "AgentAssignedTopic": "Roaming Plans",
+   "LocationID": 5,
+   "CallDurationSeconds": 10,
+   "AgentID": "3FzxP",
+   "CustomerID": "q6nzC"
+ },
+ {
+   "RecordID": 1890072,
+   "CustomerInteractionRawText": "All India plans for Data usage. Don't want incoming call being charged.",
+   "AgentAssignedTopic": "Roaming Plans",
+   "LocationID": 7,
+   "CallDurationSeconds": 8,
+   "AgentID": "rEJTt",
+   "CustomerID": "eYm3Q"
+ },
+ {
+   "RecordID": 1890073,
+   "CustomerInteractionRawText": "Inquired about roaming charges in Indian states.",
+   "AgentAssignedTopic": "Roaming Plans",
+   "LocationID": 1,
+   "CallDurationSeconds": 15,
+   "AgentID": "tuG8A",
+   "CustomerID": "Mu1GO"
+ },
+ {
+   "RecordID": 1890074,
+   "CustomerInteractionRawText": "Customer want to change location of SIM to Bangalore and stop the roaming charges.",
+   "AgentAssignedTopic": "Roaming Plans",
+   "LocationID": 4,
+   "CallDurationSeconds": 13,
+   "AgentID": "gyFFW",
+   "CustomerID": "JjSMg"
+ },
+ {
+   "RecordID": 1890075,
+   "CustomerInteractionRawText": "Hari called to ask about roaming charges. Would be travelling all week.",
+   "AgentAssignedTopic": "Roaming Plans",
+   "LocationID": 5,
+   "CallDurationSeconds": 8,
+   "AgentID": "Hc9xd",
+   "CustomerID": "XaLPt"
+ },
+ {
+   "RecordID": 1890076,
+   "CustomerInteractionRawText": "roaming charges too high. Customer on a one month tour to Spain.",
+   "AgentAssignedTopic": "Roaming Plans",
+   "LocationID": 6,
+   "CallDurationSeconds": 17,
+   "AgentID": "dI41W",
+   "CustomerID": "drHBl"
+ },
+ {
+   "RecordID": 1890077,
+   "CustomerInteractionRawText": "Customer still getting roaming alerts after getting home town. Adviced about roaming plans.",
+   "AgentAssignedTopic": "Roaming Plans",
+   "LocationID": 1,
+   "CallDurationSeconds": 13,
+   "AgentID": "zVMsF",
+   "CustomerID": "AmJUj"
+ },
+ {
+   "RecordID": 1890078,
+   "CustomerInteractionRawText": "Cus called to inquire about National roaming charges. ",
+   "AgentAssignedTopic": "Roaming Plans",
+   "LocationID": 2,
+   "CallDurationSeconds": 7,
+   "AgentID": "c4SJA",
+   "CustomerID": "GaZSW"
+ },
+ {
+   "RecordID": 1890079,
+   "CustomerInteractionRawText": "Want to activate roaming mode in his device.",
+   "AgentAssignedTopic": "Roaming Plans",
+   "LocationID": 5,
+   "CallDurationSeconds": 12,
+   "AgentID": "gc3ec",
+   "CustomerID": "Ui2RK"
+ },
+ {
+   "RecordID": 1890080,
+   "CustomerInteractionRawText": "Customer called in to check roaming plans outside country.",
+   "AgentAssignedTopic": "Roaming Plans",
+   "LocationID": 6,
+   "CallDurationSeconds": 19,
+   "AgentID": "eq0cT",
+   "CustomerID": "1nmkb"
+ },
+ {
+   "RecordID": 1890081,
+   "CustomerInteractionRawText": "68347585642 want to add a new connection.",
+   "AgentAssignedTopic": "Add New Line",
+   "LocationID": 3,
+   "CallDurationSeconds": 14,
+   "AgentID": "D3KmX",
+   "CustomerID": "8wxr3"
+ },
+ {
+   "RecordID": 1890082,
+   "CustomerInteractionRawText": "Customer added a new line. Want to know the status.",
+   "AgentAssignedTopic": "Add New Line",
+   "LocationID": 4,
+   "CallDurationSeconds": 20,
+   "AgentID": "6L0xF",
+   "CustomerID": "Vp8H2"
+ },
+ {
+   "RecordID": 1890083,
+   "CustomerInteractionRawText": "Added a new line. Offered the customer new plans.",
+   "AgentAssignedTopic": "Add New Line",
+   "LocationID": 7,
+   "CallDurationSeconds": 17,
+   "AgentID": "6CEaY",
+   "CustomerID": "Ok9NL"
+ },
+ {
+   "RecordID": 1890084,
+   "CustomerInteractionRawText": "Want to add new line.",
+   "AgentAssignedTopic": "Add New Line",
+   "LocationID": 3,
+   "CallDurationSeconds": 15,
+   "AgentID": "yib4U",
+   "CustomerID": "Gq3nH"
+ },
+ {
+   "RecordID": 1890085,
+   "CustomerInteractionRawText": "Add a new line.",
+   "AgentAssignedTopic": "Add New Line",
+   "LocationID": 8,
+   "CallDurationSeconds": 5,
+   "AgentID": "8ysiF",
+   "CustomerID": "wXMyg"
+ },
+ {
+   "RecordID": 1890086,
+   "CustomerInteractionRawText": "Customer called to ask about adding a new line to one of his family member.",
+   "AgentAssignedTopic": "Add New Line",
+   "LocationID": 2,
+   "CallDurationSeconds": 14,
+   "AgentID": "pFrwK",
+   "CustomerID": "8wxr3"
+ },
+ {
+   "RecordID": 1890087,
+   "CustomerInteractionRawText": "Faisal wants to add a new business connection apart from his personal connection/",
+   "AgentAssignedTopic": "Add New Line",
+   "LocationID": 1,
+   "CallDurationSeconds": 7,
+   "AgentID": "g9iNs",
+   "CustomerID": "9lG2W"
+ },
+ {
+   "RecordID": 1890088,
+   "CustomerInteractionRawText": "Cus called to inquire about adding new line in a new location.",
+   "AgentAssignedTopic": "Add New Line",
+   "LocationID": 3,
+   "CallDurationSeconds": 20,
+   "AgentID": "MHkS1",
+   "CustomerID": "jX3aD"
+ },
+ {
+   "RecordID": 1890089,
+   "CustomerInteractionRawText": "Shaji added a new line. Want to know about his connection details.",
+   "AgentAssignedTopic": "Add New Line",
+   "LocationID": 2,
+   "CallDurationSeconds": 20,
+   "AgentID": "vnwbd",
+   "CustomerID": "8lowk"
+ },
+ {
+   "RecordID": 1890090,
+   "CustomerInteractionRawText": "Newly added line not getting any calls.",
+   "AgentAssignedTopic": "Add New Line",
+   "LocationID": 2,
+   "CallDurationSeconds": 17,
+   "AgentID": "zxbV5",
+   "CustomerID": "zb9YI"
+ },
+ {
+   "RecordID": 1890091,
+   "CustomerInteractionRawText": "Customer wanted to deactivate existing plans.",
+   "AgentAssignedTopic": "Deactivate",
+   "LocationID": 9,
+   "CallDurationSeconds": 10,
+   "AgentID": "YdNdp",
+   "CustomerID": "LTOOP"
+ },
+ {
+   "RecordID": 1890092,
+   "CustomerInteractionRawText": "Deactivate current data plans to change to a new local pack.",
+   "AgentAssignedTopic": "Deactivate",
+   "LocationID": 6,
+   "CallDurationSeconds": 19,
+   "AgentID": "7Rxm6",
+   "CustomerID": "AYo3D"
+ },
+ {
+   "RecordID": 1890093,
+   "CustomerInteractionRawText": "Customer deactivated Onam offer. Still receiving emails & sms about the same.",
+   "AgentAssignedTopic": "Deactivate",
+   "LocationID": 7,
+   "CallDurationSeconds": 18,
+   "AgentID": "6KmzW",
+   "CustomerID": "5Hzmg"
+ },
+ {
+   "RecordID": 1890094,
+   "CustomerInteractionRawText": "Veena wants to deactivate the plan due to unavailability of proper connection.",
+   "AgentAssignedTopic": "Deactivate",
+   "LocationID": 6,
+   "CallDurationSeconds": 12,
+   "AgentID": "FOVqm",
+   "CustomerID": "te9CZ"
+ },
+ {
+   "RecordID": 1890095,
+   "CustomerInteractionRawText": "Decativated all plans due to change of user.",
+   "AgentAssignedTopic": "Deactivate",
+   "LocationID": 3,
+   "CallDurationSeconds": 15,
+   "AgentID": "X5HOK",
+   "CustomerID": "mz3ZI"
+ },
+ {
+   "RecordID": 1890096,
+   "CustomerInteractionRawText": "Deactivating current special plans due to insufficient balance.",
+   "AgentAssignedTopic": "Deactivate",
+   "LocationID": 4,
+   "CallDurationSeconds": 17,
+   "AgentID": "LMpPq",
+   "CustomerID": "M7FMT"
+ },
+ {
+   "RecordID": 1890097,
+   "CustomerInteractionRawText": "Customer terminated the offers permanently.",
+   "AgentAssignedTopic": "Deactivate",
+   "LocationID": 3,
+   "CallDurationSeconds": 15,
+   "AgentID": "1r5tN",
+   "CustomerID": "d3muk"
+ },
+ {
+   "RecordID": 1890098,
+   "CustomerInteractionRawText": "Deactivation requires customer authentication.",
+   "AgentAssignedTopic": "Deactivate",
+   "LocationID": 0,
+   "CallDurationSeconds": 13,
+   "AgentID": "1kcry",
+   "CustomerID": "uEss6"
+ },
+ {
+   "RecordID": 1890099,
+   "CustomerInteractionRawText": "Manoj calls to deactivate the plans he currently has. rolls back to existing plans/",
+   "AgentAssignedTopic": "Deactivate",
+   "LocationID": 3,
+   "CallDurationSeconds": 14,
+   "AgentID": "Ru6Oz",
+   "CustomerID": "23WMN"
+ },
+ {
+   "RecordID": 1890100,
+   "CustomerInteractionRawText": "76578549708 wanted to deactivate the special offers applied to him as bonus.",
+   "AgentAssignedTopic": "Deactivate",
+   "LocationID": 9,
+   "CallDurationSeconds": 18,
+   "AgentID": "Z5kOQ",
+   "CustomerID": "Q2I3H"
+ },
+ {
+   "RecordID": 1890101,
+   "CustomerInteractionRawText": "Ali want to change plans. He suggested to activate recent offers to his primary number,",
+   "AgentAssignedTopic": "Change Plans",
+   "LocationID": 4,
+   "CallDurationSeconds": 20,
+   "AgentID": "Z5shy",
+   "CustomerID": "N5Om3"
+ },
+ {
+   "RecordID": 1890102,
+   "CustomerInteractionRawText": "Cus called in to change plan.",
+   "AgentAssignedTopic": "Change Plans",
+   "LocationID": 4,
+   "CallDurationSeconds": 18,
+   "AgentID": "b1hpA",
+   "CustomerID": "9QL2A"
+ },
+ {
+   "RecordID": 1890103,
+   "CustomerInteractionRawText": "Plan change. Customer want to upgrade all offers with speed 1MBps.",
+   "AgentAssignedTopic": "Change Plans",
+   "LocationID": 8,
+   "CallDurationSeconds": 10,
+   "AgentID": "jUY98",
+   "CustomerID": "4ap2X"
+ },
+ {
+   "RecordID": 1890104,
+   "CustomerInteractionRawText": "Plan changed. Cus happy about new plans & offers we have.",
+   "AgentAssignedTopic": "Change Plans",
+   "LocationID": 8,
+   "CallDurationSeconds": 5,
+   "AgentID": "VMSRM",
+   "CustomerID": "Yvo5x"
+ },
+ {
+   "RecordID": 1890105,
+   "CustomerInteractionRawText": "Vineeth enquired about new plans. He wants to change his current plans.",
+   "AgentAssignedTopic": "Change Plans",
+   "LocationID": 3,
+   "CallDurationSeconds": 11,
+   "AgentID": "uCGEt",
+   "CustomerID": "3om4n"
+ },
+ {
+   "RecordID": 1890106,
+   "CustomerInteractionRawText": "Customer wants to change plan to 3G. His current plan is not giving him extra hours at night.",
+   "AgentAssignedTopic": "Change Plans",
+   "LocationID": 8,
+   "CallDurationSeconds": 7,
+   "AgentID": "kwFhJ",
+   "CustomerID": "la1nn"
+ },
+ {
+   "RecordID": 1890107,
+   "CustomerInteractionRawText": "Hailey called to enquire about new plans. Educated her about the new offers. Agreed to change to Jumbo offer.",
+   "AgentAssignedTopic": "Change Plans",
+   "LocationID": 0,
+   "CallDurationSeconds": 16,
+   "AgentID": "z88Nr",
+   "CustomerID": "2ifCE"
+ },
+ {
+   "RecordID": 1890108,
+   "CustomerInteractionRawText": "Allen want to change to Jumbo offer. His current plan end this week.",
+   "AgentAssignedTopic": "Change Plans",
+   "LocationID": 9,
+   "CallDurationSeconds": 19,
+   "AgentID": "M5RGq",
+   "CustomerID": "G585j"
+ },
+ {
+   "RecordID": 1890109,
+   "CustomerInteractionRawText": "Cus called to understand procedures of changing to new plan.",
+   "AgentAssignedTopic": "Change Plans",
+   "LocationID": 7,
+   "CallDurationSeconds": 11,
+   "AgentID": "NXnqR",
+   "CustomerID": "CueYc"
+ },
+ {
+   "RecordID": 1890110,
+   "CustomerInteractionRawText": "865484876 called in to change the 3G existing plan.",
+   "AgentAssignedTopic": "Change Plans",
+   "LocationID": 4,
+   "CallDurationSeconds": 8,
+   "AgentID": "Miw0X",
+   "CustomerID": "CSDfu"
+ },
+ {
+   "RecordID": 1890111,
+   "CustomerInteractionRawText": "Customer wants to cancel all services & start new ones.",
+   "AgentAssignedTopic": "Cancel Service",
+   "LocationID": 8,
+   "CallDurationSeconds": 10,
+   "AgentID": "xVLWN",
+   "CustomerID": "dtjMl"
+ },
+ {
+   "RecordID": 1890112,
+   "CustomerInteractionRawText": "John Meyer want to cancel the current connection.",
+   "AgentAssignedTopic": "Cancel Service",
+   "LocationID": 9,
+   "CallDurationSeconds": 12,
+   "AgentID": "wWJdw",
+   "CustomerID": "ECVAt"
+ },
+ {
+   "RecordID": 1890113,
+   "CustomerInteractionRawText": "Cus called in to suspend celebration services",
+   "AgentAssignedTopic": "Cancel Service",
+   "LocationID": 7,
+   "CallDurationSeconds": 15,
+   "AgentID": "EgBDg",
+   "CustomerID": "GPJIK"
+ },
+ {
+   "RecordID": 1890114,
+   "CustomerInteractionRawText": "Customer want to cancel service with immediate effect.",
+   "AgentAssignedTopic": "Cancel Service",
+   "LocationID": 4,
+   "CallDurationSeconds": 11,
+   "AgentID": "C905d",
+   "CustomerID": "la1nn"
+ },
+ {
+   "RecordID": 1890115,
+   "CustomerInteractionRawText": "Gregory cancelled his services temporarily.",
+   "AgentAssignedTopic": "Cancel Service",
+   "LocationID": 7,
+   "CallDurationSeconds": 15,
+   "AgentID": "DluRk",
+   "CustomerID": "OUYEI"
+ },
+ {
+   "RecordID": 1890116,
+   "CustomerInteractionRawText": "Cancelling services for a short period of time. ",
+   "AgentAssignedTopic": "Cancel Service",
+   "LocationID": 6,
+   "CallDurationSeconds": 19,
+   "AgentID": "Dhzcn",
+   "CustomerID": "zwFXz"
+ },
+ {
+   "RecordID": 1890117,
+   "CustomerInteractionRawText": "Customer inquired about the cacellation policies.",
+   "AgentAssignedTopic": "Cancel Service",
+   "LocationID": 0,
+   "CallDurationSeconds": 13,
+   "AgentID": "NvHk7",
+   "CustomerID": "0Y5rx"
+ },
+ {
+   "RecordID": 1890118,
+   "CustomerInteractionRawText": "8757486764 cancelled the existing plans 7 services.",
+   "AgentAssignedTopic": "Cancel Service",
+   "LocationID": 2,
+   "CallDurationSeconds": 9,
+   "AgentID": "A182L",
+   "CustomerID": "39XvV"
+ },
+ {
+   "RecordID": 1890119,
+   "CustomerInteractionRawText": "Xferred the call to cancellation & retention team.",
+   "AgentAssignedTopic": "Cancel Service",
+   "LocationID": 9,
+   "CallDurationSeconds": 11,
+   "AgentID": "USZjy",
+   "CustomerID": "1DW7T"
+ },
+ {
+   "RecordID": 1890120,
+   "CustomerInteractionRawText": "Customer called about cancelling the existing services to add new ones.",
+   "AgentAssignedTopic": "Cancel Service",
+   "LocationID": 8,
+   "CallDurationSeconds": 10,
+   "AgentID": "TDDFF",
+   "CustomerID": "IPlXq"
+ },
+ {
+   "RecordID": 1890121,
+   "CustomerInteractionRawText": "Customer called to ask about his Data usage for the past one week.",
+   "AgentAssignedTopic": "Data Usage",
+   "LocationID": 1,
+   "CallDurationSeconds": 18,
+   "AgentID": "SZhh9",
+   "CustomerID": "4IaJb"
+ },
+ {
+   "RecordID": 1890122,
+   "CustomerInteractionRawText": "Higginbottoms called to check his son's data usage for the last month.",
+   "AgentAssignedTopic": "Data Usage",
+   "LocationID": 1,
+   "CallDurationSeconds": 12,
+   "AgentID": "DluRk",
+   "CustomerID": "QEebS"
+ },
+ {
+   "RecordID": 1890123,
+   "CustomerInteractionRawText": "Data Usage increased suddenly for the customer. Customer wants to know why.",
+   "AgentAssignedTopic": "Data Usage",
+   "LocationID": 0,
+   "CallDurationSeconds": 17,
+   "AgentID": "Gcns7",
+   "CustomerID": "4pfVB"
+ },
+ {
+   "RecordID": 1890124,
+   "CustomerInteractionRawText": "Called to check peak time Data Usage on an overall. Provided the Usage statistics of the customer,",
+   "AgentAssignedTopic": "Data Usage",
+   "LocationID": 2,
+   "CallDurationSeconds": 20,
+   "AgentID": "79hxJ",
+   "CustomerID": "arBXH"
+ },
+ {
+   "RecordID": 1890125,
+   "CustomerInteractionRawText": "Wants to control the data usage during daytime & use it at night.",
+   "AgentAssignedTopic": "Data Usage",
+   "LocationID": 6,
+   "CallDurationSeconds": 10,
+   "AgentID": "CQ0pL",
+   "CustomerID": "kgYpJ"
+ },
+ {
+   "RecordID": 1890126,
+   "CustomerInteractionRawText": "Cus ants to increase data balance based on his daily usage.",
+   "AgentAssignedTopic": "Data Usage",
+   "LocationID": 7,
+   "CallDurationSeconds": 5,
+   "AgentID": "T3Kti",
+   "CustomerID": "iDoZ2"
+ },
+ {
+   "RecordID": 1890127,
+   "CustomerInteractionRawText": "Customer called in to enquire data usage policies for a business requirement. Educated him on Business plans.",
+   "AgentAssignedTopic": "Data Usage",
+   "LocationID": 9,
+   "CallDurationSeconds": 17,
+   "AgentID": "xC6Bq",
+   "CustomerID": "JP3zw"
+ },
+ {
+   "RecordID": 1890128,
+   "CustomerInteractionRawText": "Data usage statistics doesn't match with his actual usage. Customer concerned.",
+   "AgentAssignedTopic": "Data Usage",
+   "LocationID": 5,
+   "CallDurationSeconds": 12,
+   "AgentID": "jOjvQ",
+   "CustomerID": "2SVeu"
+ },
+ {
+   "RecordID": 1890129,
+   "CustomerInteractionRawText": "More data usage leading to over heating of device. Reduced data balance.",
+   "AgentAssignedTopic": "Data Usage",
+   "LocationID": 5,
+   "CallDurationSeconds": 13,
+   "AgentID": "B4RHX",
+   "CustomerID": "1hhO1"
+ },
+ {
+   "RecordID": 1890130,
+   "CustomerInteractionRawText": "Data usage not matching with actual. Provided him last months report.",
+   "AgentAssignedTopic": "Data Usage",
+   "LocationID": 0,
+   "CallDurationSeconds": 15,
+   "AgentID": "0Fbql",
+   "CustomerID": "X5Xnj"
+ },
+ {
+   "RecordID": 1890131,
+   "CustomerInteractionRawText": "Customer demise.",
+   "AgentAssignedTopic": "Others",
+   "LocationID": 7,
+   "CallDurationSeconds": 8,
+   "AgentID": "5HHnN",
+   "CustomerID": "svkC5"
+ },
+ {
+   "RecordID": 1890132,
+   "CustomerInteractionRawText": "IMEI Changed.",
+   "AgentAssignedTopic": "Others",
+   "LocationID": 3,
+   "CallDurationSeconds": 19,
+   "AgentID": "DOWFa",
+   "CustomerID": "Il1WE"
+ },
+ {
+   "RecordID": 1890133,
+   "CustomerInteractionRawText": "Reported sad demise of customer.",
+   "AgentAssignedTopic": "Others",
+   "LocationID": 2,
+   "CallDurationSeconds": 19,
+   "AgentID": "o6cXs",
+   "CustomerID": "jD51a"
+ },
+ {
+   "RecordID": 1890134,
+   "CustomerInteractionRawText": "SIM details & IMEI are are not matching.",
+   "AgentAssignedTopic": "Others",
+   "LocationID": 2,
+   "CallDurationSeconds": 12,
+   "AgentID": "LZYX8",
+   "CustomerID": "zdrwb"
+ },
+ {
+   "RecordID": 1890135,
+   "CustomerInteractionRawText": "Checked new applications in the market.",
+   "AgentAssignedTopic": "Others",
+   "LocationID": 8,
+   "CallDurationSeconds": 7,
+   "AgentID": "EIe4p",
+   "CustomerID": "arBXH"
+ },
+ {
+   "RecordID": 1890136,
+   "CustomerInteractionRawText": "Want to know if Whatsapp could be installed in the device.",
+   "AgentAssignedTopic": "Others",
+   "LocationID": 7,
+   "CallDurationSeconds": 6,
+   "AgentID": "hibB0",
+   "CustomerID": "KPCed"
+ },
+ {
+   "RecordID": 1890137,
+   "CustomerInteractionRawText": "Wants to access News channels through phone.",
+   "AgentAssignedTopic": "Others",
+   "LocationID": 1,
+   "CallDurationSeconds": 17,
+   "AgentID": "nGpIG",
+   "CustomerID": "K3oIL"
+ },
+ {
+   "RecordID": 1890138,
+   "CustomerInteractionRawText": "Customer wants to block calls from a particular number,",
+   "AgentAssignedTopic": "Others",
+   "LocationID": 0,
+   "CallDurationSeconds": 15,
+   "AgentID": "tmmz9",
+   "CustomerID": "8cIy8"
+ },
+ {
+   "RecordID": 1890139,
+   "CustomerInteractionRawText": "Checking IMEI status.",
+   "AgentAssignedTopic": "Others",
+   "LocationID": 8,
+   "CallDurationSeconds": 5,
+   "AgentID": "rBM1s",
+   "CustomerID": "P7kiq"
+ },
+ {
+   "RecordID": 1890140,
+   "CustomerInteractionRawText": "Called to report demise of her grandmother & want to cancel the connection.",
+   "AgentAssignedTopic": "Others",
+   "LocationID": 3,
+   "CallDurationSeconds": 16,
+   "AgentID": "OKht7",
+   "CustomerID": "Mu1GO"
+ },
+ {
+   "RecordID": 1890141,
+   "CustomerInteractionRawText": "Checking IMEI status.",
+   "AgentAssignedTopic": "Others",
+   "LocationID": 5,
+   "CallDurationSeconds": 15,
+   "AgentID": "OXAHY",
+   "CustomerID": "Njz8i"
+ },
+ {
+   "RecordID": 1890142,
+   "CustomerInteractionRawText": "#call?",
+   "AgentAssignedTopic": "Others",
+   "LocationID": null,
+   "CallDurationSeconds": null,
+   "AgentID": "",
+   "CustomerID": ""
+ },
+ {
+   "RecordID": 1890143,
+   "CustomerInteractionRawText": "Se verificaron nuevas aplicaciones en el mercado.",
+   "AgentAssignedTopic": "Others",
+   "LocationID": 7,
+   "CallDurationSeconds": 10,
+   "AgentID": "4ntG8",
+   "CustomerID": "9a6f9"
+ }
+]

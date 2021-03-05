@@ -1,23 +1,18 @@
 package com.agentlog.demo;
 
 import com.microsoft.azure.eventhubs.ConnectionStringBuilder;
-import org.apache.spark.sql.Dataset;
-import org.apache.spark.sql.Row;
-import org.apache.spark.sql.SparkSession;
-import org.apache.spark.sql.TypedColumn;
+import org.apache.spark.api.java.function.VoidFunction2;
+import org.apache.spark.sql.*;
 import org.apache.spark.sql.expressions.Window;
 import org.apache.spark.sql.streaming.StreamingQuery;
-import org.apache.spark.sql.types.DataTypes;
-import org.apache.spark.sql.types.Metadata;
-import org.apache.spark.sql.types.StructField;
-import org.apache.spark.sql.types.StructType;
+import org.apache.spark.sql.types.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration;
 
-import org.apache.spark.sql.functions;
+import java.util.Date;
 import java.util.Map;
 import java.util.HashMap;
 
@@ -29,6 +24,12 @@ import scala.collection.Seq;
 import static org.apache.spark.sql.functions.*;
 import static org.apache.spark.sql.functions.lag;
 import static org.apache.spark.sql.functions.not;
+
+import java.util.Iterator;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.time.Instant;
 
 @SpringBootApplication
 @EnableAutoConfiguration(exclude = {org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration.class})
@@ -47,6 +48,9 @@ public class DemoApplication implements  CommandLineRunner{
 	private static final String EH_NAMESPACE_CONNECTION_STRING = "Endpoint=sb://eeventhubspace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=td2eQVC2RKwzc/tmBJF0CwGBCZG1IRsgLnPH4dkM+2M=";
 	private static final String eventHubName = "testeventhub";
 
+	private void WriteToSqlDataBase(Dataset<Row> batchDF,Long batchId){
+
+	}
 	@Override
 	public void run(String... args) throws Exception {
 		System.out.println("Starting my spark app...");
@@ -86,7 +90,7 @@ public class DemoApplication implements  CommandLineRunner{
 		String namespaceName = "EEventHubSpace";
 		String eventHubName = "TestEventHub";
 		String sasKeyName = "RootManageSharedAccessKey";
-		String sasKey = "td2eQVC2RKwzc/tmBJF0CwGBCZG1IRsgLnPH4dkM+2M=";
+		String sasKey = "ssiB5rZJ4mCmr8g7wWZ+H9uU04XSjHCxkRZx6DuYyFM=";
 
 		ConnectionStringBuilder eventHubConnectionString = new ConnectionStringBuilder()
 				.setNamespaceName(namespaceName)
@@ -143,15 +147,15 @@ public class DemoApplication implements  CommandLineRunner{
 //						.select(col(reportParams.ReportField),col("count"));
 
 		Dataset<Row> report = msgs.groupBy(
-				functions.window(msgs.col("attributeTimestamp"), "10 minutes", "10 minutes"),
-				msgs.col("attributeThisDN")
-)               .count();
-		report.writeStream()
-				.format("console")
-				.outputMode("complete")
-				.option("truncate", "false")
-				.start()
-		        .awaitTermination();
+				functions.window(msgs.col("attributeTimestamp"), "10 minutes", "10 minutes").as("window"),
+				msgs.col("attributeThisDN"))
+				.count();
+//		report.writeStream()
+//				.format("console")
+//				.outputMode("complete")
+//				.option("truncate", "false")
+//				.start()
+//		        .awaitTermination();
 
 
 		//		Dataset<Row> interval = temp.withColumn("prevTime", lag(col("t"), 1).over(functions.window(col("t"), "10 minutes", "5 minutes")))
@@ -174,5 +178,85 @@ public class DemoApplication implements  CommandLineRunner{
 //        // Start the stream writer
 //        msgs.writeStream.format(classOf[CosmosDBSinkProvider].getName).outputMode("append").options(configMap).option("checkpointLocation", "/log")
 		System.out.println("End of run method");
+
+		String jdbcUrl = "jdbc:mysql://localhost:3306/reports?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false&allowPublicKeyRetrieval=true";
+		String user = "root";
+		String password = "password";
+
+		//writing into a local sql
+//		report.select(col("window"),col("attributeThisDN"),col("count"))
+//				.writeStream()
+//				.format("jdbc")
+//				.outputMode("complete")
+//				.option("url","")
+//				.option("dbtable","")
+//				.option("user",user)
+//				.option("password",password)
+//				.start();
+
+
+
+
+//		report.writeStream().foreach(
+//				new ForeachWriter<Row>() {
+//
+//					@Override public boolean open(long partitionId, long version) {
+//						// Open connection
+//						System.out.println("Connection open call");
+//						return true;
+//					}
+//
+//					@Override public void process(Row record) {
+//						// Write string to connection
+//						try{
+//							Connection conn = DriverManager.getConnection(jdbcUrl, user, password);
+//							PreparedStatement statement = conn.prepareStatement("INSERT INTO agentEvents (timewindow,agentId,count) VALUES (?,?,?)");
+//
+//							//statement.setTimestamp(1, new Timestamp(System.currentTimeMillis()));
+//							statement.setString(2, "test");
+//							statement.setLong(3, 1);
+//							System.out.println("Storing data to db..going to call executeUpdate");
+//							statement.executeUpdate();
+//						}catch(Exception e){
+//							e.printStackTrace();
+//						}
+//					}
+//
+//					@Override public void close(Throwable errorOrNull) {
+//						// Close the connection
+//						System.out.println("----------------------- Close called ----------------");
+//							errorOrNull.printStackTrace();
+//					}
+//				}
+//				)
+//				.outputMode("complete")
+//				.start().awaitTermination();
+
+		//lets write into a cassandara db
+		//report.select(col("window"),col("attributeThisDN"),col("count"))
+		report
+				.select(report.col("window").cast(StringType),report.col("attributeThisDN"),report.col("count"))
+				.writeStream()
+				.foreachBatch(
+						new VoidFunction2<Dataset<Row>, Long>() {
+					public void call(Dataset<Row> dataset, Long batchId) {
+						// Transform and write batchDF
+						dataset.withColumn("Window",col("window"))
+								.write().format("jdbc")
+
+								.option("url",jdbcUrl)
+				                .option("user",user)
+								.option("password",password)
+								.option("driver", "com.mysql.jdbc.Driver")
+								.option("dbtable","agentEvents")
+								.mode(SaveMode.Append)
+								.save();
+					}
+				})
+				.outputMode("update")
+				.start()
+				.awaitTermination();
+		System.out.println("Wrote to DB");
+
 	}
 }
